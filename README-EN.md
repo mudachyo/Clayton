@@ -8,7 +8,7 @@
 - To install **autoclicker** install [this script](https://github.com/mudachyo/Clayton/raw/main/clayton-autoclicker.user.js)
 - Open [Clayton Bot](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3Dclaytoncoinbot%26appname%3Dgame%26startapp%3D2475526) and run the game **Stack**
 
-## Что делать, если игры не запускается
+## What to do if the game does not start
 - Install the [Resource Override](https://chromewebstore.google.com/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii) extension in your browser.
 - Open the extension settings and enter the following data:
 - **Tab URL:** `*`
