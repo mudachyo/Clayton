@@ -6,7 +6,16 @@
 ## How to run
 - Install extension in your browser [Violentmonkey](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=be)
 - To install **autoclicker** install [this script](https://github.com/mudachyo/Clayton/raw/main/clayton-autoclicker.user.js)
-- Open [Bot Clayton](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3Dclaytoncoinbot%26appname%3Dgame%26startapp%3D2475526) and run the game **Stack**
+- Open [Clayton Bot](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3Dclaytoncoinbot%26appname%3Dgame%26startapp%3D2475526) and run the game **Stack**
+
+## Что делать, если игры не запускается
+- Install the [Resource Override](https://chromewebstore.google.com/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii) extension in your browser.
+- Open the extension settings and enter the following data:
+- **Tab URL:** `*`
+- **From:** `https://tonclayton.fun/assets/index-CM8DCHvL.js`
+- **To:** `https://mudachyo.codes/clayton/index-CM8DCHvL.js`
+- Open the [Clayton Bot](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3Dclaytoncoinbot%26appname%3Dgame%26startapp%3D2475526) and start the game **Stack**
+![Settings](settings.png)
 
 ![Result](result.gif)
 ---
