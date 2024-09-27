@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Clayton Autoclicker for Stack Game
-// @version      1.0
+// @version      1.1
 // @author       mudachyo
 // @match        https://tonclayton.fun/*
 // @grant        none
@@ -69,7 +69,7 @@
     function clickCollectOrStartButton() {
         const buttons = document.querySelectorAll('#content > div > div > div > div.home-wrapper.enter > div.content-wrapper > div.farm-wrapper > button');
         buttons.forEach(button => {
-            if (button.textContent.includes('Collect') || button.textContent.includes('Start Farming')) {
+            if (button.textContent.includes('Collect') || button.textContent.includes('Start Farming') || button.textContent.includes('Забрать') || button.textContent.includes('Начать фарм')) {
                 button.click();
             }
         });
