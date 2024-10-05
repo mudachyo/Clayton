@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Clayton Autoclicker for Stack Game
-// @version      1.1
+// @version      1.2
 // @author       mudachyo
 // @match        https://tonclayton.fun/*
 // @grant        none
@@ -33,7 +33,7 @@
 
     // Симуляция клика
     function simulateMouseClickOnCanvas() {
-        const canvas = document.querySelector('canvas[data-engine="three.js r166"]');
+        const canvas = document.querySelector('#root > div > div.game-layout > div > div > div:nth-child(1) > div > canvas');
         const gameSessionDiv = document.querySelector('div.go4109123758');
         
         if (canvas && !gameSessionDiv) {
